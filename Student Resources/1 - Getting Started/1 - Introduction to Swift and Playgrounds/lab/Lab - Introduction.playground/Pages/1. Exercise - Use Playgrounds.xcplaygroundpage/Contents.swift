@@ -16,7 +16,7 @@ print("kindrick Lamar")
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
 print("i got loyatly")
-print("i got roaltiy")
+print("i got royalty")
 
 
 /*:

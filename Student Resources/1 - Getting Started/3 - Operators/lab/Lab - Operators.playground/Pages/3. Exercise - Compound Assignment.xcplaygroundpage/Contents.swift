@@ -16,9 +16,16 @@
  
  Print the balance of your piggy bank after each step.
  */
-
-
-
-
-
+var piggyBank = 0
+// $20 for odd jobs
+piggyBank + 20
+// $10 for mowing neighbors lawn
+piggyBank + 10
+// Movies and Dinner
+piggyBank / 2
+// Washing Windows
+piggyBank * 3
+// Spent at doller store
+piggyBank - 3
+print(piggyBank)
 //: [Previous](@previous)  |  page 3 of 8  |  [Next: App Exercise - Counting](@next)

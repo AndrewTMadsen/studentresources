@@ -8,6 +8,9 @@
 let heartRate1 = 65
 let heartRate2 = 99
 let heartRate3 = 80
+let addedHR = heartRate3 + heartRate2 + heartRate1
+let avrHR = addedHR/3
+print(avrHR)
 /*:
  Now create three more constants, `heartRate1D`, `heartRate2D`, and `heartRate3D`, equal to the same values as `heartRate1`, `heartRate2`, and `heartRate3`. These new constants should be of type `Double`. Create a constant `addedHRD` equal to the sum of all three heart rates. Create a constant called `averageHRD` that equals the `addedHRD` divided by 3 to get the average of your new heart rate constants. Print the result. Does this differ from your previous average? Why or why not?
  */

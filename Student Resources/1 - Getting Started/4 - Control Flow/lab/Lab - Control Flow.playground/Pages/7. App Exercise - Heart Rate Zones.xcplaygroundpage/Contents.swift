@@ -15,7 +15,22 @@
  
  If `currentHR` is above the listed zones, print some kind of warning asking the user to slow down.
  */
-let currentHR = 128
-
+let currentHR = 60
+switch currentHR {
+case 100...120:
+    print("Activity in this zone helps with recovery")
+case 121...140:
+    print("Activity in this zone helps improve basice endurance and fat burning")
+case 141...160:
+    print("Activity in this zone helps improve aerobic fitness")
+case 161...180:
+    print("Activity in this zone increases maximum performance capacity for shorter sessions")
+case 181...200:
+    print("Activity in this zone helps fit athletes develop speed")
+case 201...4000:
+    print("CALM DOWN")
+default:
+    print("ready to begin exercise")
+}
 
 //: [Previous](@previous)  |  page 7 of 9  |  [Next: Exercise - Ternary Operator](@next)

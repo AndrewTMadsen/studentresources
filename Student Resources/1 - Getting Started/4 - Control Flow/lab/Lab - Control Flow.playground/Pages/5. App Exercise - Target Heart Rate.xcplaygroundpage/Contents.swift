@@ -9,11 +9,11 @@
  */
 let targetLowerBound = 120
 let targetUpperBound = 150
-let currentHR = 147
+let currentHR = 120
 
-if currentHR >= targetLowerBound{
+if currentHR <= targetLowerBound{
     print("Good work, but try to push it!")
-}else if currentHR <= targetUpperBound{
+}else if currentHR >= targetUpperBound{
     print("your on fire slow down")
 }else{
     print("good job")

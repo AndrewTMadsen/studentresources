@@ -7,7 +7,7 @@ let number1 = 14
 let number2 = 25
 
 var largest: Int
-print(number1 > number2 ? "largest = number1" : "largest = number2" )
+print(number1 > number2 ? "largest is number 1" : "largest is number 2" )
 
 //if number1 > number2 {
 //    largest = number1

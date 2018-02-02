@@ -3,7 +3,13 @@
  
  Write a new introduction function called `introduction`. It should take two `String` parameters, `name` and `home`, and one `Int` parameter, `age`. The function should print a brief introduction. I.e. if "Mary," "California," and 32 were passed into the function, it might print "Mary, 32, is from California." Call the function and observe the printout.
  */
-
+func introduction (name: String, home: String, age: Int) {
+   let  name = "Andrew"
+   let  home = "Orem"
+    let age = 18
+}
+print(introduction)
+print(name)
 
 /*:
  Write a function called `almostAddition` that takes two `Int` arguments. The first argument should not require an argument label. The function should add the two arguments together, subtract 2, then print the result. Call the function and observe the printout.

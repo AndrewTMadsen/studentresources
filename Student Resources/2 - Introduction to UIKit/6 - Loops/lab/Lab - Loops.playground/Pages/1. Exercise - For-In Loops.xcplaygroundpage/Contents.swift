@@ -1,9 +1,4 @@
-/*:
- ## Exercise - For-In Loops
  
- Create a for-in loop that loops through values 1 to 100, and prints each of the values.
- */
-
 
 /*:
  Create a for-in loop that loops through each of the characters in the `alphabet` string below, and prints each of the values alongside the index.
